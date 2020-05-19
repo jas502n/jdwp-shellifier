@@ -1,5 +1,12 @@
 # JDWP exploitation script
 
+	
+	$ python ./jdwp-shellifier.py -t my.target.ip -p 1234 --cmd "base64 encode bash"
+	
+
+http://www.jackson-t.ca/runtime-exec-payloads.html
+
+
 ## What is it ?
 This exploitation script is meant to be used by pentesters against active JDWP service, in order to gain Remote Code Execution.
 
